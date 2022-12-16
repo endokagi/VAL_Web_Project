@@ -1,4 +1,4 @@
-import img from './assets/img/logo_VestALife.png'
+import img from './assets/img/money.jpg'
 import './App.css';
 import { Button, Card, Row, Col, Container, Navbar, Nav, Jumbotron } from 'react-bootstrap';
 function App() {

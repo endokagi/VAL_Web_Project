@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../assets/img/Angel.jpg';
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Card } from "react-bootstrap";
 function Home() {
     return(
         <div>
@@ -9,7 +9,7 @@ function Home() {
         <h1 style={{ textAlign: 'center' }}>Need money for cats</h1>
         <br />
         <Row>
-          <Col md={4}>
+          {/* <Col md={4}> */}
             <Card style={{ padding: 20, backgroundColor: '#3A3C4B' }}>
               <Card.Body>
                 <Card.Img variant='top' src={logo} />
@@ -17,7 +17,7 @@ function Home() {
                 <Card.Text style={{ color: '#fff' }}>Fat Cat</Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+          {/* </Col> */}
         </Row>
       </Container>
         </div>

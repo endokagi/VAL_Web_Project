@@ -30,7 +30,7 @@ function Navbar() {
                                 <NavDropdown.Item ><NavLink className="nav-link" to="/british">
                                     British
                                 </NavLink></NavDropdown.Item>
-                                <NavDropdown.Item><NavLink className="nav-link" to="/regdoll">
+                                <NavDropdown.Item><NavLink className="nav-link" to="/ragdoll">
                                     Ragdoll
                                 </NavLink></NavDropdown.Item>
                                 {/* </NavDropdown.Menu> */}
